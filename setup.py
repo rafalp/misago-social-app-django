@@ -24,14 +24,14 @@ def load_requirements():
     return open(join(dirname(__file__), 'requirements.txt')).readlines()
 
 setup(
-    name='social-auth-app-django',
+    name='misago-social-auth-app-django',
     version=read_version(),
-    author='Matias Aguirre',
-    author_email='matiasaguirre@gmail.com',
-    description='Python Social Authentication, Django integration.',
+    author='Matias Aguirre, Rafał Pitoń',
+    author_email='rafio.xudb@gmail.com',
+    description='Python Social Authentication, Django integration (Misago fork).',
     license='BSD',
     keywords='django, social auth',
-    url='https://github.com/python-social-auth/social-app-django',
+    url='https://github.com/rafalp/misago-social-app-django',
     packages=[
         'social_django',
         'social_django.migrations',

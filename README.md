@@ -1,8 +1,10 @@
-# Python Social Auth - Django
+# Python Social Auth - Django - Misago fork
 
 [![Build Status](https://travis-ci.org/python-social-auth/social-app-django.svg?branch=master)](https://travis-ci.org/python-social-auth/social-app-django)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-orange.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=matiasaguirre%40gmail%2ecom&lc=US&item_name=Python%20Social%20Auth&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest)
 [![PyPI version](https://badge.fury.io/py/social-auth-app-django.svg)](https://badge.fury.io/py/social-auth-app-django)
+
+**NOTE**: This is a quick fork of not-released changes that were commited on original repo.
 
 Python Social Auth is an easy to setup social authentication/registration
 mechanism with support for several frameworks and auth providers.
@@ -29,7 +31,7 @@ Project documentation is available at http://python-social-auth.readthedocs.org/
 ## Setup
 
 ```shell
-$ pip install social-auth-app-django
+$ pip install misago-social-auth-app-django
 ```
 
 ## Contributing
